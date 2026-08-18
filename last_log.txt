@@ -1,0 +1,1017 @@
+Lily Starts from Core: 0!
+
+Enter dtb_setup_memory
+Enter dtb_get_memory_nodes
+Node: 
+Property_Name: #address-cells
+Property_Name: #size-cells
+Property_Name: compatible
+Property_Name: model
+Node: reserved-memory
+Property_Name: #address-cells
+Property_Name: #size-cells
+Property_Name: ranges
+Node: mmode_resv1@80000000
+Property_Name: reg
+Property_Name: no-map
+Node: mmode_resv0@80040000
+Property_Name: reg
+Property_Name: no-map
+Node: poweroff
+Node: reboot
+Node: platform-bus@4000000
+Node: memory@80000000
+Property_Name: device_type
+Property_Name: reg
+Node: cpus
+Node: cpu@0
+Node: interrupt-controller
+Node: cpu@1
+Node: interrupt-controller
+Node: cpu-map
+Node: cluster0
+Node: core0
+Node: core1
+Node: pmu
+Node: fw-cfg@10100000
+Node: flash@20000000
+Node: aliases
+Node: chosen
+Node: soc
+Node: rtc@101000
+Node: serial@10000000
+Node: test@100000
+Node: virtio_mmio@10008000
+Node: virtio_mmio@10007000
+Node: virtio_mmio@10006000
+Node: virtio_mmio@10005000
+Node: virtio_mmio@10004000
+Node: virtio_mmio@10003000
+Node: virtio_mmio@10002000
+Node: virtio_mmio@10001000
+Node: interrupt-controller@d000000
+Node: interrupt-controller@c000000
+Node: interrupt-controller@28000000
+Node: interrupt-controller@24000000
+Node: clint@2000000
+Node: pci@30000000
+Address: 2, Size: 2, State: 1
+Reg<0x0 0x80000000 0x0 0x40000 >
+Address: 2, Size: 2, State: 1
+Reg<0x0 0x80040000 0x0 0x20000 >
+Address: 2, Size: 2, State: 0
+Reg<0x0 0x80000000 0x0 0x40000000 >
+Enter mem_convert_memory_nodes
+
+Secure
+
+Address: 2, Size: 2, State: 1
+Reg<0x0 0x80000000 0x0 0x40000 >
+Address: 2, Size: 2, State: 1
+Reg<0x0 0x80040000 0x0 0x20000 >
+Address: 2, Size: 2, State: 0
+Reg<0x0 0x80000000 0x0 0x40000000 >
+
+Reserved
+
+Address: 0, Size: 0, State: 1
+Finished
+
+Enter mem_tranlate_nodes
+Leave mem_tranlate_nodes
+Enter mem_flag_reserve_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Leave mem_flag_reserve_nodes
+Enter mem_prepare_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Enter mem_split_nodes
+Leave mem_split_nodes
+Leave mem_prepare_nodes
+Enter mem_sort_nodes
+Leave mem_sort_nodes
+
+Start:
+Node: 0
+ Adress: 0000000080000000, Size, 0000000000060000, Border: 0000000080060000, State: 6
+
+Node: 1
+ Adress: 0000000080060000, Size, 0000000000001000, Border: 0000000080061000, State: 7
+
+Node: 2
+ Adress: 0000000080061000, Size, 000000000019f000, Border: 0000000080200000, State: 1
+
+Node: 3
+ Adress: 0000000080200000, Size, 0000000000018000, Border: 0000000080218000, State: 3
+
+Node: 4
+ Adress: 0000000080218000, Size, 0000000000410000, Border: 0000000080628000, State: 4
+
+Node: 5
+ Adress: 0000000080628000, Size, 000000003f7d8000, Border: 00000000bfe00000, State: 1
+
+Node: 6
+ Adress: 00000000bfe00000, Size, 0000000000002000, Border: 00000000bfe02000, State: 8
+
+Node: 7
+ Adress: 00000000bfe02000, Size, 00000000001fe000, Border: 00000000c0000000, State: 1
+
+Finish
+Leave mem_convert_memory_nodes
+Leave dtb_get_memory_nodes
+Leave dtb_setup_memory
+Enter paging_init_kernel_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Enter paging_map_pages_lily
+Leave paging_map_pages_lily
+Activating Paging
+Activ Paging
+Leave paging_init_kernel_lily
+
+Lily Ends!
+
+Vera Starts, Lily: LILY_BOOT
+Vera Starts: 0x0000000080200000, Vera Ends: 0x0000000080218000
+Text Starts: 0x0000000080200000, Text Ends: 0x000000008020d000
+Temp-Heap pointer: 0x0000000080218000, Temp-Heap size: 0x0000000000410000
+Temp_End: 0x0000000080628000
+
+
+Enter mem_init_kernel
+Enter mem_first_paging
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Enter paging_map_pages
+Leave paging_map_pages
+Leave mem_first_paging
+Enter paging_map_pages
+Leave paging_map_pages
+Memory_Paging Activates soon!
+Paging is Active!
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Enter mem_make_mem_map
+new_mem_map, split:_ Pages_min: 2
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter NULL branch
+Leave mem_make_mem_map
+Enter mem_make_mem_map
+new_mem_map, split:_ Pages_min: 2
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter NULL branch
+Leave mem_make_mem_map
+Enter mem_merge_memory_map [NOT MUCH USED CURRENTLY!]
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Leave mem_merge_memory_map
+Enter mem_merge_memory_map [NOT MUCH USED CURRENTLY!]
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Enter mem_get_memory_map_counter
+Leave mem_get_memory_map_counter
+Leave mem_merge_memory_map
+
+Init Kernel Allokator
+Enter k_mem_request_heap_page
+Leave k_mem_request_heap_page
+Enter mem_split_mem_area
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Leave mem_split_mem_area
+Enter k_mem_request_heap_page
+Leave k_mem_request_heap_page
+Enter mem_split_mem_area
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Leave mem_split_mem_area
+Enter k_mem_request_heap_page
+Leave k_mem_request_heap_page
+Enter mem_split_mem_area
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Enter paging_edit_page_Sv39
+Leave paging_edit_page_Sv39
+Leave mem_split_mem_area
+Finished Kernel Allokator
+Enter dtb_init
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067000
+Enter dtb_parser_tree
+
+
+Node_Name: 
+---Property Name: #address-cells
+------Address-cell: <2>
+---Property Name: #size-cells
+------Size-cell: <2>
+---Property Name: compatible
+------Compatible: riscv-virtio  
+---Property Name: model
+------Model: riscv-virtio,qemu
+---Node_Name: reserved-memory
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067048
+------Property Name: #address-cells
+---------Address-cell: <2>
+------Property Name: #size-cells
+---------Size-cell: <2>
+------Property Name: ranges
+---------Ranges: <Empty>
+------Node_Name: mmode_resv1@80000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067090
+---------Property Name: reg
+------------Reg: <0x0 0x80000000 0x0 0x40000 >
+---------Property Name: no-map
+------End Node, New Depth: 2
+------Node_Name: mmode_resv0@80040000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800670d8
+---------Property Name: reg
+------------Reg: <0x0 0x80040000 0x0 0x20000 >
+---------Property Name: no-map
+------End Node, New Depth: 2
+---End Node, New Depth: 1
+---Node_Name: poweroff
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067120
+------Property Name: value
+---------Value: <0x5555>
+------Property Name: offset
+---------Offset: <0x0>
+------Property Name: regmap
+---------Regmap: <0x9>
+------Property Name: compatible
+---------Compatible: syscon-poweroff  
+---End Node, New Depth: 1
+---Node_Name: reboot
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067168
+------Property Name: value
+---------Value: <0x7777>
+------Property Name: offset
+---------Offset: <0x0>
+------Property Name: regmap
+---------Regmap: <0x9>
+------Property Name: compatible
+---------Compatible: syscon-reboot  
+---End Node, New Depth: 1
+---Node_Name: platform-bus@4000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800671b0
+------Property Name: interrupt-parent
+---------Interrupts-Partent: 0x8
+------Property Name: ranges
+---------Ranges: <0x0 0x0 0x4000000 0x2000000 >
+------Property Name: #address-cells
+---------Address-cell: <1>
+------Property Name: #size-cells
+---------Size-cell: <1>
+------Property Name: compatible
+---------Compatible: qemu,platform simple-bus  
+---End Node, New Depth: 1
+---Node_Name: memory@80000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800671f8
+------Property Name: device_type
+---------Device_Type: memory
+------Property Name: reg
+---------Reg: <0x0 0x80000000 0x0 0x40000000 >
+---End Node, New Depth: 1
+---Node_Name: cpus
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067240
+------Property Name: #address-cells
+---------Address-cell: <1>
+------Property Name: #size-cells
+---------Size-cell: <0>
+------Property Name: timebase-frequency
+---------Timebase-Freqzency: <0x989680>
+------Node_Name: cpu@0
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067288
+---------Property Name: phandle
+------------Phandle: <0x3>
+---------Property Name: device_type
+------------Device_Type: cpu
+---------Property Name: reg
+------------Reg: <0x0 >
+---------Property Name: status
+------------Status: okay
+---------Property Name: compatible
+------------Compatible: riscv  
+---------Property Name: riscv,cbop-block-size
+------------riscv,cbop-block-size: <0x40 >
+---------Property Name: riscv,cboz-block-size
+---------Property Name: riscv,cbom-block-size
+---------Property Name: riscv,isa-extensions
+------------riscv,isa-extensions: i m a f d c h zic64b zicbom zicbop zicboz ziccamoa ziccif zicclsm ziccrse zicntr zicsr zifencei zihintntl zihintpause zihpm zmmul za64rs zaamo zalrsc zawrs zfa zca zcd zba zbb zbc zbs sdtrig shcounterenw shgatpa shtvala shvsatpa shvstvala shvstvecd smaia ssaia ssccptr sscounterenw ssstrict sstc sstvala sstvecd ssu64xl svadu svvptc  
+---------Property Name: riscv,isa-base
+------------riscv,isa-base: rv64i  
+---------Property Name: riscv,isa
+------------riscv,isa: rv64imafdch_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicsr_zifencei_zihintntl_zihintpause_zihpm_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zca_zcd_zba_zbb_zbc_zbs_sdtrig_shcounterenw_shgatpa_shtvala_shvsatpa_shvstvala_shvstvecd_smaia_ssaia_ssccptr_sscounterenw_ssstrict_sstc_sstvala_sstvecd_ssu64xl_svadu_svvptc  
+---------Property Name: mmu-type
+------------MMU-Type: riscv,sv57  
+---------Node_Name: interrupt-controller
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800672d0
+------------Property Name: #interrupt-cells
+---------------Interrupt-cell: <1>
+------------Property Name: interrupt-controller
+------------Property Name: compatible
+---------------Compatible: riscv,cpu-intc  
+------------Property Name: phandle
+---------------Phandle: <0x4>
+---------End Node, New Depth: 3
+------End Node, New Depth: 2
+------Node_Name: cpu@1
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067318
+---------Property Name: phandle
+------------Phandle: <0x1>
+---------Property Name: device_type
+------------Device_Type: cpu
+---------Property Name: reg
+------------Reg: <0x1 >
+---------Property Name: status
+------------Status: okay
+---------Property Name: compatible
+------------Compatible: riscv  
+---------Property Name: riscv,cbop-block-size
+------------riscv,cbop-block-size: <0x40 >
+---------Property Name: riscv,cboz-block-size
+---------Property Name: riscv,cbom-block-size
+---------Property Name: riscv,isa-extensions
+------------riscv,isa-extensions: i m a f d c h zic64b zicbom zicbop zicboz ziccamoa ziccif zicclsm ziccrse zicntr zicsr zifencei zihintntl zihintpause zihpm zmmul za64rs zaamo zalrsc zawrs zfa zca zcd zba zbb zbc zbs sdtrig shcounterenw shgatpa shtvala shvsatpa shvstvala shvstvecd smaia ssaia ssccptr sscounterenw ssstrict sstc sstvala sstvecd ssu64xl svadu svvptc  
+---------Property Name: riscv,isa-base
+------------riscv,isa-base: rv64i  
+---------Property Name: riscv,isa
+------------riscv,isa: rv64imafdch_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicsr_zifencei_zihintntl_zihintpause_zihpm_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zca_zcd_zba_zbb_zbc_zbs_sdtrig_shcounterenw_shgatpa_shtvala_shvsatpa_shvstvala_shvstvecd_smaia_ssaia_ssccptr_sscounterenw_ssstrict_sstc_sstvala_sstvecd_ssu64xl_svadu_svvptc  
+---------Property Name: mmu-type
+------------MMU-Type: riscv,sv57  
+---------Node_Name: interrupt-controller
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067360
+------------Property Name: #interrupt-cells
+---------------Interrupt-cell: <1>
+------------Property Name: interrupt-controller
+------------Property Name: compatible
+---------------Compatible: riscv,cpu-intc  
+------------Property Name: phandle
+---------------Phandle: <0x2>
+---------End Node, New Depth: 3
+------End Node, New Depth: 2
+------Node_Name: cpu-map
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800673a8
+---------Node_Name: cluster0
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800673f0
+------------Node_Name: core0
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067438
+---------------Property Name: cpu
+------------End Node, New Depth: 4
+------------Node_Name: core1
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067480
+---------------Property Name: cpu
+------------End Node, New Depth: 4
+---------End Node, New Depth: 3
+------End Node, New Depth: 2
+---End Node, New Depth: 1
+---Node_Name: pmu
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800674c8
+------Property Name: compatible
+---------Compatible: riscv,pmu  
+---End Node, New Depth: 1
+---Node_Name: fw-cfg@10100000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067510
+------Property Name: dma-coherent
+------Property Name: reg
+---------Reg: <0x0 0x10100000 0x0 0x18 >
+------Property Name: compatible
+---------Compatible: qemu,fw-cfg-mmio  
+---End Node, New Depth: 1
+---Node_Name: flash@20000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067558
+------Property Name: bank-width
+---------Bank Width: <0x4 >
+------Property Name: reg
+---------Reg: <0x0 0x20000000 0x0 0x2000000 0x0 0x22000000 0x0 0x2000000 >
+------Property Name: compatible
+---------Compatible: cfi-flash  
+---End Node, New Depth: 1
+---Node_Name: aliases
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800675a0
+------Property Name: serial0
+---End Node, New Depth: 1
+---Node_Name: chosen
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800675e8
+------Property Name: stdout-path
+---------stdout-path: /soc/serial@10000000
+------Property Name: rng-seed
+---------rng-seed: <0xd6ca43b3 0x83bb62e2 0x71dc5150 0x91200f9a 0x456a3769 0x3ff05db1 0x9012f04f 0xc532399c >
+---End Node, New Depth: 1
+---Node_Name: soc
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067630
+------Property Name: #address-cells
+---------Address-cell: <2>
+------Property Name: #size-cells
+---------Size-cell: <2>
+------Property Name: compatible
+---------Compatible: simple-bus  
+------Property Name: ranges
+---------Ranges: <Empty>
+------Node_Name: rtc@101000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067678
+---------Property Name: interrupts
+------------Interrupts: <0xb 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x101000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: google,goldfish-rtc  
+------End Node, New Depth: 2
+------Node_Name: serial@10000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800676c0
+---------Property Name: interrupts
+------------Interrupts: <0xa 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: clock-frequency
+------------Clock-Frequency: <0x384000>
+---------Property Name: reg
+------------Reg: <0x0 0x10000000 0x0 0x100 >
+---------Property Name: compatible
+------------Compatible: ns16550a  
+------End Node, New Depth: 2
+------Node_Name: test@100000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067708
+---------Property Name: phandle
+------------Phandle: <0x9>
+---------Property Name: reg
+------------Reg: <0x0 0x100000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: sifive,test1 sifive,test0 syscon  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10008000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067750
+---------Property Name: interrupts
+------------Interrupts: <0x8 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10008000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10007000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067798
+---------Property Name: interrupts
+------------Interrupts: <0x7 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10007000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10006000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800677e0
+---------Property Name: interrupts
+------------Interrupts: <0x6 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10006000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10005000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067828
+---------Property Name: interrupts
+------------Interrupts: <0x5 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10005000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10004000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067870
+---------Property Name: interrupts
+------------Interrupts: <0x4 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10004000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10003000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800678b8
+---------Property Name: interrupts
+------------Interrupts: <0x3 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10003000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10002000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067900
+---------Property Name: interrupts
+------------Interrupts: <0x2 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10002000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: virtio_mmio@10001000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067948
+---------Property Name: interrupts
+------------Interrupts: <0x1 0x4 >
+---------Property Name: interrupt-parent
+------------Interrupts-Partent: 0x8
+---------Property Name: reg
+------------Reg: <0x0 0x10001000 0x0 0x1000 >
+---------Property Name: compatible
+------------Compatible: virtio,mmio  
+------End Node, New Depth: 2
+------Node_Name: interrupt-controller@d000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067990
+---------Property Name: phandle
+------------Phandle: <0x8>
+---------Property Name: riscv,num-sources
+---------Property Name: reg
+------------Reg: <0x0 0xd000000 0x0 0x8000 >
+---------Property Name: msi-parent
+---------Property Name: interrupt-controller
+---------Property Name: #interrupt-cells
+------------Interrupt-cell: <2>
+---------Property Name: #address-cells
+------------Address-cell: <0>
+---------Property Name: compatible
+------------Compatible: qemu,aplic riscv,aplic  
+------End Node, New Depth: 2
+------Node_Name: interrupt-controller@c000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800679d8
+---------Property Name: status
+------------Status: disabled
+---------Property Name: phandle
+------------Phandle: <0x7>
+---------Property Name: riscv,delegation
+---------Property Name: riscv,children
+---------Property Name: riscv,num-sources
+---------Property Name: reg
+------------Reg: <0x0 0xc000000 0x0 0x8000 >
+---------Property Name: msi-parent
+---------Property Name: interrupt-controller
+---------Property Name: #interrupt-cells
+------------Interrupt-cell: <2>
+---------Property Name: #address-cells
+------------Address-cell: <0>
+---------Property Name: compatible
+------------Compatible: qemu,aplic riscv,aplic  
+------End Node, New Depth: 2
+------Node_Name: interrupt-controller@28000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067a20
+---------Property Name: phandle
+------------Phandle: <0x6>
+---------Property Name: riscv,num-ids
+---------Property Name: reg
+------------Reg: <0x0 0x28000000 0x0 0x2000 >
+---------Property Name: interrupts-extended
+------------Interrupts-Extended: <0x4 0x9 0x2 0x9 >
+---------Property Name: msi-controller
+---------Property Name: interrupt-controller
+---------Property Name: #interrupt-cells
+------------Interrupt-cell: <0>
+---------Property Name: compatible
+------------Compatible: qemu,imsics riscv,imsics  
+------End Node, New Depth: 2
+------Node_Name: interrupt-controller@24000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067a68
+---------Property Name: status
+------------Status: disabled
+---------Property Name: phandle
+------------Phandle: <0x5>
+---------Property Name: riscv,num-ids
+---------Property Name: reg
+------------Reg: <0x0 0x24000000 0x0 0x2000 >
+---------Property Name: interrupts-extended
+------------Interrupts-Extended: <0x4 0xb 0x2 0xb >
+---------Property Name: msi-controller
+---------Property Name: interrupt-controller
+---------Property Name: #interrupt-cells
+------------Interrupt-cell: <0>
+---------Property Name: compatible
+------------Compatible: qemu,imsics riscv,imsics  
+------End Node, New Depth: 2
+------Node_Name: clint@2000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067ab0
+---------Property Name: interrupts-extended
+------------Interrupts-Extended: <0x4 0x3 0x4 0x7 0x2 0x3 0x2 0x7 >
+---------Property Name: reg
+------------Reg: <0x0 0x2000000 0x0 0x10000 >
+---------Property Name: compatible
+------------Compatible: sifive,clint0 riscv,clint0  
+------End Node, New Depth: 2
+------Node_Name: pci@30000000
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067af8
+---------Property Name: interrupt-map-mask
+------------Interrupt-Map-Mask: <0x1800 0x0 0x0 0x7 >
+---------Property Name: interrupt-map
+------------Interrupt-Map: <0x0 0x0 0x0 0x1 0x8 0x20 0x4 0x0 0x0 0x0 0x2 0x8 0x21 0x4 0x0 0x0 0x0 0x3 0x8 0x22 0x4 0x0 0x0 0x0 0x4 0x8 0x23 0x4 0x800 0x0 0x0 0x1 0x8 0x21 0x4 0x800 0x0 0x0 0x2 0x8 0x22 0x4 0x800 0x0 0x0 0x3 0x8 0x23 0x4 0x800 0x0 0x0 0x4 0x8 0x20 0x4 0x1000 0x0 0x0 0x1 0x8 0x22 0x4 0x1000 0x0 0x0 0x2 0x8 0x23 0x4 0x1000 0x0 0x0 0x3 0x8 0x20 0x4 0x1000 0x0 0x0 0x4 0x8 0x21 0x4 0x1800 0x0 0x0 0x1 0x8 0x23 0x4 0x1800 0x0 0x0 0x2 0x8 0x20 0x4 0x1800 0x0 0x0 0x3 0x8 0x21 0x4 0x1800 0x0 0x0 0x4 0x8 0x22 0x4 >
+---------Property Name: ranges
+------------Ranges: <0x1000000 0x0 0x0 0x0 0x3000000 0x0 0x10000 0x2000000 0x0 0x40000000 0x0 0x40000000 0x0 0x40000000 0x3000000 0x4 0x0 0x4 0x0 0x4 0x0 >
+---------Property Name: reg
+------------Reg: <0x0 0x30000000 0x0 0x10000000 >
+---------Property Name: msi-parent
+---------Property Name: dma-coherent
+---------Property Name: bus-range
+------------Bus-Range: <0x0 0xff >
+---------Property Name: linux,pci-domain
+------------Linux,PCI_Domain: <0x0 >
+---------Property Name: device_type
+------------Device_Type: pci
+---------Property Name: compatible
+------------Compatible: pci-host-ecam-generic  
+---------Property Name: #size-cells
+------------Size-cell: <2>
+---------Property Name: #interrupt-cells
+------------Interrupt-cell: <1>
+---------Property Name: #address-cells
+------------Address-cell: <3>
+------End Node, New Depth: 2
+---End Node, New Depth: 1
+End Node, New Depth: 0
+End! 0
+Leave dtb_parser_tree
+Enter dtb_check_drivers
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080067b40
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800680e8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068100
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068118
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068130
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068148
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068160
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068178
+Enter k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068190
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800681a8
+Enter k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800681c0
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800681d8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800681f0
+Enter hart_init_function_flags
+Leave hart_init_function_flags
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068208
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068220
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068238
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068250
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068268
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068280
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068298
+Enter k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800682b0
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800682c8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800682e0
+Enter hart_init_function_flags
+Leave hart_init_function_flags
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800682f8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068310
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068328
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068340
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068358
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068370
+Enter k_free
+Leave k_free
+Enter k_init_harts
+Leave k_init_harts
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068388
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800683a0
+Enter k_free
+Leave k_free
+Enter uart_init_driver with: 0x1
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800683b8
+Enter uart_16550_driver_init
+Address: 2, Size: 2
+Reg: <0x0 0x10000000 0x0 0x100 >
+0x0000000010000000
+P_Base: 0x0000000010000000, P_Size: 0x0000000000000100
+Leave uart_16550_driver_init
+Leave uart_init_driver
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800683c8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800683e0
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800683f8
+Enter k_free
+Leave k_free
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068410
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068438
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068450
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068468
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068480
+Enter k_free
+Leave k_free
+Enter init_aplic_informations
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068498
+Enter k_free
+Leave k_free
+Leave init_aplic_informations
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800684c0
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800684d8
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800684f0
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068508
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068520
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068538
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068568
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068580
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc080068598
+Enter k_free
+Leave k_free
+Enter dtb_get_node_information
+Enter k_malloc
+Gives Pointer to kernel: 0xffffffc0800685b0
+Enter k_free
+Leave k_free
+Leave dtb_check_drivers
+Leave dtb_init
+Enter k_init_driver_kernel
+Enter driver_initialise_IMSIC
+Leave driver_initialise_IMSIC
+Enter driver_init_aplic
+Enter k_mem_page_new_driver_area
+Enter paging_map_pages
+Leave paging_map_pages
+Leave k_mem_page_new_driver_area
+Leave driver_init_aplic
+Leave k_init_driver_kernel
+Vera Ends
